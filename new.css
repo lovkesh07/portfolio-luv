@@ -241,6 +241,7 @@ font-size: 100px;
         font-weight: 700;
         font-size: 100px;
         text-align: center;
+        display: inline-block;
         
     }
     .skill h4{
