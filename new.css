@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(myphotos.htm/img1.jpg);
+    background-color: rgb(136, 99, 31);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin: 40px;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+      
+}
+.home{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    transition: 0.3s;
+
+
+}
+
+nav ul li:hover{
+    transform: translateY(-4px);
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;  
+    
+}
+
+
+
+
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    
+}
+.col{
+    flex-basis: 50%;
+}
+
+.des {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 50px;
+    transition: transform 0.9;
+    padding: 50px;
+    line-height: 90px;
+    
+}
+h1:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 40px 5px  rgba(5, 4, 5, 0.301) ;
+}
+.pa{
+    color: #fff;
+    font-size:50px;
+    line-height: 60px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background: rgb(2, 2, 2);
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006) ;  /* for bottom reflection */
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .artwork h1{
+      color: black;
+      text-align: center;
+  }
+
+
+
+    .section-title{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    } 
+    .section-title h1{
+        display: inline-block;     /* utna hi block cover hoga*/
+        text-transform: uppercase;
+        color: black;
+        text-align:center;
+font-size: 100px;
+        margin-left: 600px;
+        right: px;
+    }
+    .ab{
+        margin-right: 590px ;
+    }
+    .section-title h4{
+        font-size: 20px;
+        color: #423940;
+        position: relative;
+        padding-bottom: 14px;
+    }
+    .section-title h4::before{
+        content: '';
+        height: 6px;
+        background-color: #ff0000;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 150px;
+        right:0px;
+        margin: auto;
+    } 
+    .text-center {
+    text-align: center !important;
+    }
+    .text-left {
+    text-align: left;
+    }
+    .text-right{
+        text-align: right;
+    }
+    .about{
+        width: 100%;
+        height: 80vh;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   /*create space between 2 diff things*/
+        margin-bottom: 100px;
+        padding: 50px 5% 0 5%;
+        position: relative;
+        
+    }
+    .about-text{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 50%;
+    }
+    .about-text h1{
+        font-size: 5rem;
+        color: black;
+    
+
+    }
+    .about-text h2{
+        font-size: 3rem;
+        color: rgb(26, 22, 22);
+        font-weight: 400;
+    }
+    .about-text h1,h2{
+        margin: 0;
+        padding: 0;
+    }
+    .am{
+        display: inline-block;
+    }
+    .about-text p{
+    font-size: 1.5rem;
+        color: black;
+        padding-bottom: 25px;
+    }
+
+    .btn{
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 600;
+        padding: 12px 35px;
+        color: #e9e9e9;
+        border-radius: 40px;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.4s ease;
+        display: inline-block;
+        white-space: nowrap;
+        border: none;
+        cursor: pointer;
+        background-color: #d32a2a;
+    }
+    .btn:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+
+    /* --------------------persona-info --------------------*/
+
+    
+    .skill h1{
+        margin: 60px;
+        padding: 30px;
+        font-weight: 700;
+        font-size: 100px;
+        text-align: center;
+        
+    }
+    .skill h4{
+        font-size: 20px;
+        margin: auto;
+
+    }
+
+
+    /*---------------------------------------------------------*/
+    
+
+    footer{
+        background: #212121;
+        height: 50vh;
+        margin-top: 30px;
+        padding: 50px 20px;
+    }
+    footer .container007{
+     width: 100%;
+     max-width: 1100px;
+     margin: 0 auto;  
+     display: flex;
+     padding-top: 50px ;
+     align-items: flex-start;
+     justify-content: space-between;
+     flex-wrap: wrap;
+    }
+    footer .ftr h3{
+        font-size: 1.9em;
+        margin-bottom: 1.2em;
+        color: #fff;
+    }
+    footer .content{
+        list-style: none;
+        font-size: 19px;
+    }
+    footer .content a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        opacity: 0.6;
+        line-height: 30px;
+        transition: 0.2s ease opacity;
+    }
+    footer .content a:hover{
+        opacity:1;
+    }
+    footer .ftr{
+        flex-basis: 18%;
+    }
+    form{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    input{
+        border: none;
+        outline: none;
+        padding: 10px;
+        margin: 5px 0;
+        background: #f5f5f5;
+    }
+    .button input{
+        background: rgb(243, 3, 3);
+        color: #fff;
+        transition: 0.2s ease background;
+    }
+    .button input:hover{
+        background: #000;
+    }
+
+
+
+    .element {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 5vh 10vw;
+        
+        justify-content: space-between;
+    }
+    
+    
+    .element  h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        margin-left: 140px;
+        margin: 20px;
+    }    
+    .element .clicks a{
+        padding: 20px;
+        margin-left:140px ;
+        color: #f5f5f5;
+        text-decoration: none;
+    }
+
+
+/* ---------------------my skills---------------------------- */
+    #myservice {
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+    
+    #myservice .service {
+        background-color: #eb1a1ab9;
+        color: #ffffff;
+        width: 30%;
+        float: left;
+        margin-left: 1%;
+        padding: 10px;
+        text-align: center;
+        opacity: 75%;
+        margin-top: 10px;
+    }
+    
+    #myservice .service h1,p {
+        padding: 6px;
+    }
+    .service{
+        font-size: 20px;
+    }
+    #myservice .title {
+        margin-left: 1%;
+        margin-bottom: 2%;
+        font-size: 35px;
+    }
+    
+    #myskills .title {
+        margin-left: 1%;
+        font-size: 65px;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        display: inline;
+    }
+    
+    #myskills .skill {
+        width: 10%;
+        float: left;
+        text-align: center;
+        margin-left: 5%;
+        
+    }
+    
+    #myskills .skill img {
+        width: 100%;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    #myskills .skill img:hover {
+        transform: rotate(360deg);
+    }
+    
+    #myskills .skill h1 {
+        font-size: 30px;
+    }
+    #myskills .skill h3{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .sd{
+        font-size: 40px;
+        color: #000000;
+        margin-left: 5%;
+    }
