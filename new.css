@@ -23,13 +23,13 @@
     align-items: center;
 }
 .logo{
-    width: 150px;
+    width: 11vw;
     cursor: pointer;
 }
 .menu-icon{
-    width: 30px;
+    width: 3vw;
     cursor: pointer;
-    margin: 40px;
+    margin: 4vw;
 }
 .nav{
     flex: 1;
@@ -39,7 +39,7 @@
 .home{
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 6vw;
     flex: 1;
     text-align: right;
     text-decoration: none;
@@ -48,7 +48,7 @@
 
 nav ul li{
     display: inline-block;
-    padding: 15px;
+    padding: 2vw;
     transition: 0.3s;
 
 
@@ -60,14 +60,10 @@ nav ul li:hover{
 }
 nav ul li a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.6vw;
     color: aliceblue;  
     
 }
-
-
-
-
 
 .row{
     display: flex;
@@ -81,11 +77,11 @@ nav ul li a{
 
 .des {
     color: #fff;
-    font-size: 100px;
-    margin-top: 50px;
+    font-size: 6vw;
+    margin-top: 5vw;
     transition: transform 0.9;
-    padding: 50px;
-    line-height: 90px;
+    padding: 2vw;
+    line-height: 5vw;
     
 }
 h1:hover{
@@ -94,12 +90,12 @@ h1:hover{
 }
 .pa{
     color: #fff;
-    font-size:50px;
-    line-height: 60px;
-    padding: 10px;
-    margin-top: 30px;
+    font-size:3vw;
+    line-height: 3vw;
+    padding: 1vw;
+    margin-top: 2vw;
 }
-
+/* -----------------------------swiper start------------------------------------------------------- */
 
   .swiper-container {
     width: 100%;
@@ -124,42 +120,42 @@ h1:hover{
       color: black;
       text-align: center;
   }
-
-
+/* -----------------------------swiper end------------------------------------------------------- */
 
     .section-title{
         flex: 0 0 100%;
         max-width: 100%;
-        margin-top: 40px;
-        margin-bottom: 60px;
+        margin-top: 4vw;
+        margin-bottom: 6vw;
     } 
     .section-title h1{
         display: inline-block;     /* utna hi block cover hoga*/
         text-transform: uppercase;
         color: black;
         text-align:center;
-font-size: 100px;
-        margin-left: 600px;
+        font-size: 4vw;
+        margin-left: 6vw;
         right: px;
     }
     .ab{
-        margin-right: 590px ;
+        margin-right: 5.9vw ;
     }
     .section-title h4{
-        font-size: 20px;
+        font-size: 2vw;
         color: #423940;
         position: relative;
-        padding-bottom: 14px;
+        padding-bottom: 2vw;
     }
     .section-title h4::before{
         content: '';
-        height: 6px;
+        height: .5vw;
         background-color: #ff0000;
         position: absolute;
         bottom: 0;
         left: 0;
-        width: 150px;
+        width: 9vw;
         right:0px;
+        border-radius: 5vw;
         margin: auto;
     } 
     .text-center {
@@ -173,13 +169,13 @@ font-size: 100px;
     }
     .about{
         width: 100%;
-        height: 80vh;
+        height: 25vw;
         box-sizing: border-box;
         display: flex;
         align-items: center;
         justify-content: space-between;   /*create space between 2 diff things*/
-        margin-bottom: 100px;
-        padding: 50px 5% 0 5%;
+        margin-bottom: 10vw;
+        padding: 5vw 5% 0 5%;
         position: relative;
         
     }
@@ -188,13 +184,13 @@ font-size: 100px;
         width: 50%;
     }
     .about-text h1{
-        font-size: 5rem;
+        font-size: 6rem;
         color: black;
     
 
     }
     .about-text h2{
-        font-size: 3rem;
+        font-size: 3vw;
         color: rgb(26, 22, 22);
         font-weight: 400;
     }
@@ -202,22 +198,29 @@ font-size: 100px;
         margin: 0;
         padding: 0;
     }
-    .am{
+    .am {
         display: inline-block;
+        
+
     }
     .about-text p{
-    font-size: 1.5rem;
+        font-size: 1.5vw;
         color: black;
-        padding-bottom: 25px;
+        padding-bottom: 2vw;
+    }
+     .about-mdel img{
+        width: 30vw;
+        border-radius: 1px;
+        margin-top: 6vw;
     }
 
     .btn{
-        font-size: 16px;
+        font-size: 1vw;
         font-family: sans-serif;
         font-weight: 600;
-        padding: 12px 35px;
+        padding: 1vw 3vw;
         color: #e9e9e9;
-        border-radius: 40px;
+        border-radius: 40vw;
         -webkit-transition: all 0.2s ease;
         transition: all 0.4s ease;
         display: inline-block;
@@ -236,36 +239,38 @@ font-size: 100px;
 
     
     .skill h1{
-        margin: 60px;
-        padding: 30px;
+        margin: 6vw;
+        margin-left: 6vw;
+        padding: 3vw;
         font-weight: 700;
-        font-size: 100px;
+        font-size: 5vw;
         text-align: center;
         display: inline-block;
         
     }
+   
     .skill h4{
-        font-size: 20px;
+        font-size: 20vw;
         margin: auto;
 
     }
 
 
-    /*---------------------------------------------------------*/
+    /*---------------------------footer start------------------------------*/
     
 
     footer{
         background: #212121;
-        height: 50vh;
-        margin-top: 30px;
-        padding: 50px 20px;
+        height: 40vh;
+        margin-top: 3vw;
+        padding: 2vw 3vw;
     }
     footer .container007{
      width: 100%;
-     max-width: 1100px;
+     max-width: 110vw;
      margin: 0 auto;  
      display: flex;
-     padding-top: 50px ;
+     padding-top: 2vw ;
      align-items: flex-start;
      justify-content: space-between;
      flex-wrap: wrap;
@@ -277,13 +282,13 @@ font-size: 100px;
     }
     footer .content{
         list-style: none;
-        font-size: 19px;
+        font-size: 1vw;
     }
     footer .content a{
         text-decoration: none;
         color: rgb(255, 255, 255);
         opacity: 0.6;
-        line-height: 30px;
+        line-height: 1.4vw;
         transition: 0.2s ease opacity;
     }
     footer .content a:hover{
@@ -300,8 +305,8 @@ font-size: 100px;
     input{
         border: none;
         outline: none;
-        padding: 10px;
-        margin: 5px 0;
+        padding: .5vw;
+        margin: 1vw 0;
         background: #f5f5f5;
     }
     .button input{
@@ -312,8 +317,6 @@ font-size: 100px;
     .button input:hover{
         background: #000;
     }
-
-
 
     .element {
         display: inline-flex;
@@ -329,7 +332,7 @@ font-size: 100px;
     .element  h2 {
         font-family: 'Montserrat', sans-serif;
         color: #fff;
-        margin-left: 140px;
+        margin-left: 14vw;
         margin: 20px;
     }    
     .element .clicks a{
@@ -339,6 +342,7 @@ font-size: 100px;
         text-decoration: none;
     }
 
+/*---------------------------footer end------------------------------*/
 
 /* ---------------------my skills---------------------------- */
     #myservice {
@@ -355,19 +359,19 @@ font-size: 100px;
         padding: 10px;
         text-align: center;
         opacity: 75%;
-        margin-top: 10px;
+        margin-top: 1vw;
     }
     
     #myservice .service h1,p {
-        padding: 6px;
+        padding: .5vw;
     }
     .service{
-        font-size: 20px;
+        font-size: 1vw;
     }
     #myservice .title {
         margin-left: 1%;
         margin-bottom: 2%;
-        font-size: 35px;
+        font-size: 35vw;
     }
     
     #myskills .title {
@@ -397,12 +401,12 @@ font-size: 100px;
     }
     
     #myskills .skill h1 {
-        font-size: 30px;
+        font-size: 30vw;
     }
     #myskills .skill h3{
-        margin-top: 50px;
-        margin-bottom: 30px;
-        font-size: 30px;
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+        font-size: 2vw;
     }
     .sd{
         font-size: 40px;
