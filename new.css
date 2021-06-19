@@ -198,8 +198,9 @@ h1:hover{
         margin: 0;
         padding: 0;
     }
-    .am {
+    .about-text .am {
         display: inline-block;
+        font-size: 9vw;
         
 
     }
@@ -248,10 +249,9 @@ h1:hover{
         display: inline-block;
         
     }
-   
-    .skill h4{
-        font-size: 20vw;
-        margin: auto;
+    .skill h2{
+        font-size: 2vw;
+        margin-left: 6vw;
 
     }
 
@@ -276,8 +276,8 @@ h1:hover{
      flex-wrap: wrap;
     }
     footer .ftr h3{
-        font-size: 1.9em;
-        margin-bottom: 1.2em;
+        font-size: 1.9vw;
+        margin-bottom: 1.2vw;
         color: #fff;
     }
     footer .content{
@@ -369,15 +369,15 @@ h1:hover{
         font-size: 1vw;
     }
     #myservice .title {
-        margin-left: 1%;
-        margin-bottom: 2%;
+        margin-left: 1vw;
+        margin-bottom: 2vw;
         font-size: 35vw;
     }
     
-    #myskills .title {
-        margin-left: 1%;
-        font-size: 65px;
-        margin-top: 5%;
+    .title {
+        margin-left: 45vw;
+        font-size:6vw;
+        margin-top: 2vw;
         margin-bottom: 3%;
         display: inline;
     }
